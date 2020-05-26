@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacinha Boa</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="../assets/css/estilos.css"/>
+</head>
+<body>
+    <img src="https://panoramafarmaceutico.com.br/wp-content/uploads/2019/04/Governo-fecha-portas.jpg">
+    <h1>TEAM MONSTROS</h1>
+    <h1>Meus medicamentos</h1>
+    <table>
+        <tr>
+            <td>
+                <h1 id="valorTotal">Valor Total de medicamentos:</h1>
+            </td>
+            <td>
+                <h1 id="total"></h1>
+            </td>
+        </tr>
+    </table>    
+    
+    <strong>Nome:</strong> <strong>Paulo Isidoro Arruda Otero</strong>
+    <br/>
+    <strong>Foto </strong><img src="../assets/img/paulo.jpg">
+    
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <strong>Medicamento</strong>
+                </td>
+                <td>
+                    <strong>Preço</strong>
+                </td>
+            </tr>
+            <tr>                
+                <td>
+                    <input id="medicamento" type="text" placeholder="Digite aqui o nome do medicamento"/>
+                </td>
+                <td>
+                    <input id="preco" type="number" placeholder="Digite aqui o preço do medicamento"/>
+                </td>
+                <td>
+                    <button type="submit" onclick="handleEnviar()">Enviar</button>
+                </td>
+            </tr>
+        </table>
+        
+
+        
+
+        
+    </form>
+
+    <ul id="lista"></ul>
+    <script src="../assets/js/script.js">
+    </script>
+</body>
+</html>
